@@ -1,8 +1,9 @@
 === FlamingText wordpress plugin ===
 Contributors: Raymond Zhao
 Tags: flamingtext, logos, photos
-Requires at lead: 3.0
-Stable tag: 1.0
+Requires at least: 3.0
+Tested up to: 3.0.4
+Stable tag: 1.0.1
 
 Turn your text into flaming in wordpress!
 
@@ -17,25 +18,32 @@ to design their own logo based on what they type. When the users are happy
 with their creation, they can click OK and the image is inserted directly into
 your post.
 
+Usage maual: there is a quick usage manual avaialble at
+(www.flamingtext.com/plugin/wordpress)
+
+Don't forget to try full FlamingText.com logo design features
+(www.flamingtext.com)!
+
 == Installation ==
 
 ###Installing The Plugin###
 
-Visit plugins settings and then choose add new, and then upload the ZIP file -
-need ftp serveice turned on for doing so.
+Install is easy: go trough Admin -> Plugins -> Search for "FlamingText" ->
+Install now
 
-Alternatively, extract all files from the ZIP file, **making sure to keep the file structure
-intact**, and then upload it to `/wp-content/plugins/`. This should result in
-multiple subfolders and files.
+Alternatively, you can download plugin trough plugin's homepage and downloaded
+the zip to your local machine, then go through Admin -> Plugins -> Add New ->
+Upload (flamingtext.zip)
 
-Then just visit your admin area and activate the plugin.
+Once plugin installed, go back to Plugins and activate FlamingText
+wordpress plugin.
+
 **See Also:** ["Installing Plugins" article on the WP
-Codex](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
+Codex](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins) 
 
-== Upcoming changes ==
-User can create an account through the plugin to get extra features from
-flamingtext (ie. use previous logo, script and font suggestion)
+== Other notes ==
+Leave feedback or comments at our plugin forum (http://community.flamingtext.com/viewforum.php?f=9) or send email back to author directly for a quick response.
 
 == Screenshots ==
 
-1. This screen shot of FlamingText plugin popup screen. sceenshot-1.jpg
+1. This is a screen shot of FlamingText plugin popup screen. sceenshot-1.jpg
