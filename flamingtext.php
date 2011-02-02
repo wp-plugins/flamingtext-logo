@@ -4,7 +4,7 @@
 Plugin Name:  FlamingText Logo
 Plugin URI:   http://www.flamingtext.com/plugin/wordpress/
 Description:  A plugin to easily add FlamingText images as headings into your posts.
-Version:      1.0
+Version:      1.0.1
 Author:       Raymond Zhao
 Email:	      raymond@flamingtext.com
 Author URI:   http://www.flamingtext.com
@@ -16,7 +16,7 @@ Copyright (C) - All right reserved by FlamingText.com Pty Ltd 1999-2011.
 
 **************************************************************************/
 class FlamingText {
-	var $version = '0.3';
+	var $version = '1.0.1';
 	var $settings = array();
 	var $defaultsettings = array();
 	var $presets = array();
@@ -112,16 +112,16 @@ class FlamingText {
         	                wp_deregister_script( 'jquery-ui-draggable' );
         	                wp_deregister_script( 'jquery-ui-sortable' );
         	                wp_deregister_script( 'jquery-ui-dialog' );
-                                wp_enqueue_script( 'jquery-ui-core', plugins_url('/flamingtext/resources/jquery-ui/jquery.ui.core.min.js'), ('jquery'), '1.8.4' );
-                                wp_enqueue_script( 'jquery-ui-resizable', plugins_url('/flamingtext/resources/jquery-ui/jquery.ui.resizable.min.js'), array('jquery-ui-core', 'jquery-ui-mouse', 'jquery-ui-widget'), '1.8.4' );
-                                wp_enqueue_script( 'jquery-ui-draggable', plugins_url('/flamingtext/resources/jquery-ui/jquery.ui.draggable.min.js'), array('jquery-ui-core'), '1.8.4' );
-				wp_enqueue_script( 'jquery-ui-dialog', plugins_url('/flamingtext/resources/jquery-ui/jquery.ui.dialog.min.js'), array('jquery-ui-core', 'jquery-ui-draggable', 'jquery-ui-resizable'), '1.8.4' );
-				wp_enqueue_script( 'jquery-ui-widget', plugins_url('/flamingtext/resources/jquery-ui/jquery.ui.widget.min.js'), '1.8.4' );
-				wp_enqueue_script( 'jquery-ui-mouse', plugins_url('/flamingtext/resources/jquery-ui/jquery.ui.mouse.min.js'), array('jquery-ui-widget'), '1.8.4' );
+                                wp_enqueue_script( 'jquery-ui-core', plugins_url('/flamingtext-logo/resources/jquery-ui/jquery.ui.core.min.js'), ('jquery'), '1.8.4' );
+                                wp_enqueue_script( 'jquery-ui-resizable', plugins_url('/flamingtext-logo/resources/jquery-ui/jquery.ui.resizable.min.js'), array('jquery-ui-core', 'jquery-ui-mouse', 'jquery-ui-widget'), '1.8.4' );
+                                wp_enqueue_script( 'jquery-ui-draggable', plugins_url('/flamingtext-logo/resources/jquery-ui/jquery.ui.draggable.min.js'), array('jquery-ui-core'), '1.8.4' );
+				wp_enqueue_script( 'jquery-ui-dialog', plugins_url('/flamingtext-logo/resources/jquery-ui/jquery.ui.dialog.min.js'), array('jquery-ui-core', 'jquery-ui-draggable', 'jquery-ui-resizable'), '1.8.4' );
+				wp_enqueue_script( 'jquery-ui-widget', plugins_url('/flamingtext-logo/resources/jquery-ui/jquery.ui.widget.min.js'), '1.8.4' );
+				wp_enqueue_script( 'jquery-ui-mouse', plugins_url('/flamingtext-logo/resources/jquery-ui/jquery.ui.mouse.min.js'), array('jquery-ui-widget'), '1.8.4' );
 */
 				wp_enqueue_script( 'jquery-ui-dialog' );
-				wp_enqueue_script( 'jquery-ui-slider', plugins_url('/flamingtext/resources/jquery-ui/ui.slider.js'), array('jquery-ui-core'), '1.7.3' );
-				wp_enqueue_style( 'ft-jquery-ui', plugins_url('/flamingtext/resources/jquery-ui/ft-jquery-ui.css'), array(), $this->version, 'screen' );
+				wp_enqueue_script( 'jquery-ui-slider', plugins_url('/flamingtext-logo/resources/jquery-ui/ui.slider.js'), array('jquery-ui-core'), '1.7.3' );
+				wp_enqueue_style( 'ft-jquery-ui', plugins_url('/flamingtext-logo/resources/jquery-ui/ft-jquery-ui.css'), array(), $this->version, 'screen' );
 			}
 		}
 	}
@@ -394,7 +394,7 @@ class FlamingText {
 				<br/>
 				<div><center><font color="red" id=ft-dialog-error></font></center></div>
 				</h3></div>
-			<div style="position: absolute; bottom: 90px; left: 260px;"><img id="ft-busy-logo" src="<?php echo plugins_url('/flamingtext/buttons/busy.gif') ?>" ></div>
+			<div style="position: absolute; bottom: 90px; left: 260px;"><img id="ft-busy-logo" src="<?php echo plugins_url('/flamingtext-logo/buttons/busy.gif') ?>" ></div>
 			<div style="position: absolute; bottom: 80px; right: 25px"><a href="#" onclick="editPopup();"><?php _e('edit preset', 'flamingtext') ?></a>&nbsp;|&nbsp;<a href="#" onclick='savePopup();'><?php _e('save preset', 'flamingtext') ?></a></div>
 			<div style="position: absolute; bottom: 65px;"><small>Powered By <a href=http://www.flamingtext.com/ target="_blank">FlamingText.com</a></small></p></div>
 			<div style="position: absolute; bottom: 65px; right: 20px"><font id=preset-indicator></font></div>
@@ -443,7 +443,7 @@ function EditorCSS() {
 	
 	// Load the custom TinyMCE plugin
 	function mce_external_plugins( $plugins ) {
-		$plugins['flamingtext'] = plugins_url('/flamingtext/resources/tinymce3/editor_plugin.js');
+		$plugins['flamingtext'] = plugins_url('/flamingtext-logo/resources/tinymce3/editor_plugin.js');
 		return $plugins;
 	}
 
@@ -508,7 +508,7 @@ var FTData = {};
 
 		// Open the dialog while setting the width, height, title, buttons, etc. of it
 		var buttons = { "<?php _e('Okay', 'flamingtext'); ?>": TSButtonOkay, "<?php _e('Cancel', 'flamingtext'); ?>": TSDialogClose };
-		var title = '<img src="<?php echo plugins_url('/flamingtext/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('FlamingText Logo Creator', 'flamingtext') ?>";
+		var title = '<img src="<?php echo plugins_url('/flamingtext-logo/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('FlamingText Logo Creator', 'flamingtext') ?>";
 		jQuery("#ft-dialog").dialog({ autoOpen: false, width: 540, minWidth: 540, height: TSDialogHeight, minHeight: TSDialogHeight, maxHeight: TSDialogMaxHeight, zIndex: 999999, title: title, buttons: buttons, resize: TSDialogResizing });
 
 		// Reset the dialog box incase it's been used before
@@ -671,7 +671,7 @@ var FTData = {};
 		} 
 
 		var buttons = { "<?php _e('Delete', 'flamingtext') ?>" : editPreset };
-		var title = '<img src="<?php echo plugins_url('/flamingtext/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('Deleting preset...', 'flamingtext') ?>";
+		var title = '<img src="<?php echo plugins_url('/flamingtext-logo/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('Deleting preset...', 'flamingtext') ?>";
 		jQuery("#delete-preset").dialog({ autoOpen: false, width: 320, height: 170,  title: title, buttons: buttons, resizable: false, draggable : false });
 		jQuery("#preset-list").empty();
 		for (i=0; i<$presets.length; i+=2) {
@@ -684,7 +684,7 @@ var FTData = {};
 
 	function overwritePopup($preset) {
 		var buttons = { "<?php _e('yes', 'flamingtext') ?>" : savePreset, "<?php _e('no', 'flamingtext') ?>" : function() {jQuery("#overwrite-preset").dialog("close")}};
-		var title = '<img src="<?php echo plugins_url('/flamingtext/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('Saving preset...', 'flamingtext') ?>";
+		var title = '<img src="<?php echo plugins_url('/flamingtext-logo/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('Saving preset...', 'flamingtext') ?>";
 		jQuery("#overwrite-preset").dialog({ autoOpen: false, width: 320, height: 170,  title: title, buttons: buttons, resizable: false, draggable : false });
 		jQuery("#overwrite-preset-name").text($preset);
 		jQuery("#overwrite-preset").dialog("open");
@@ -697,7 +697,7 @@ var FTData = {};
 		}
 
 		var button = { "<?php _e('Save', 'flamingtext') ?>" : savePresetButton };
-		var title = '<img src="<?php echo plugins_url('/flamingtext/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('Saving preset...', 'flamingtext') ?>";
+		var title = '<img src="<?php echo plugins_url('/flamingtext-logo/buttons/'); ?>' +  'flamingtext.png" width="20" height="20" /> ' + "<?php _e('Saving preset...', 'flamingtext') ?>";
 		jQuery("#save-preset").dialog({ autoOpen: false, width: 320, height: 170,  title: title, buttons: button, resizable: false, draggable : false });
 
 		// Reset the dialog box incase it's been used before
@@ -891,7 +891,7 @@ var FTData = {};
 						jQuery("#ft-busy-logo").hide();
 					} else if (json_imgObject.error) {
 						jQuery("#ft-busy-logo").hide();
-						jQuery("#ft-preview-logo").attr("src","<?php echo plugins_url('/flamingtext/buttons/fail.gif') ?>");
+						jQuery("#ft-preview-logo").attr("src","<?php echo plugins_url('/flamingtext-logo/buttons/fail.gif') ?>");
 						jQuery("#ft-dialog-error").text(json_imgObject.error);
 					} else {
 						jQuery("#ft-dialog-error").text("<?php _e('bad response from server','flamingtext') ?>");
@@ -908,7 +908,7 @@ var FTData = {};
 
 	// Generate query string for external php program to save preset
 	function ftSavePresetString(preset) {
-		var queryString = "<?php echo plugins_url('/flamingtext/ft_db.php?save&') ?>";
+		var queryString = "<?php echo plugins_url('/flamingtext-logo/ft_db.php?save&') ?>";
 		queryString += userId + "&";
 		queryString += encodeURIComponent(preset) + "&";
 		queryString += getQueryString();
@@ -917,14 +917,14 @@ var FTData = {};
 
 	// Generate query string for external php program to delete preset
 	function ftDeletePresetString(preset) {
-		var queryString = "<?php echo plugins_url('/flamingtext/ft_db.php?delete&') ?>";
+		var queryString = "<?php echo plugins_url('/flamingtext-logo/ft_db.php?delete&') ?>";
 		queryString += userId + "&";
 		queryString += encodeURIComponent(preset);
 		return queryString;
 	}
 
 	function ftPopupString (toSave) {
-		var queryString = "<?php echo plugins_url('/flamingtext/flamingtext_image_output.php?') ?>";
+		var queryString = "<?php echo plugins_url('/flamingtext-logo/flamingtext_image_output.php?') ?>";
 		if (toSave == "save") queryString += "save&"; 
 		else queryString += "preview&"; 
                 queryString += getQueryString();
@@ -932,7 +932,7 @@ var FTData = {};
 	} 
 
 	function ftSplitbuttonString(set) {
-		var queryString = "<?php echo plugins_url('/flamingtext/flamingtext_image_output.php?save&') ?>";
+		var queryString = "<?php echo plugins_url('/flamingtext-logo/flamingtext_image_output.php?save&') ?>";
                 for (i=0; i<$presets.length; i++) {
                         if ($presets[i] == set) queryString += $presets[i+1];
                 }

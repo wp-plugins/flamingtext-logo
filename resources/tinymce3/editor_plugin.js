@@ -52,7 +52,7 @@
 			        case 'ftsplitbutton':
 			                var c = cm.createSplitButton('ftsplitbutton', {
 						title : $splitbuttonname, 
-						image : location.protocol+'//'+location.hostname+'/wp-content/plugins/flamingtext/buttons/flamingtext.png',
+						image : location.protocol+'//'+location.hostname+'/wp-content/plugins/flamingtext-logo/buttons/flamingtext.png',
                     				onclick : function() {
                     					if ( typeof TSButtonClick == 'undefined' ) return;
 			    				else TSButtonClick('flaming-text');
