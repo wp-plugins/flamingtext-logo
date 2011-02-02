@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid	""
+msgstr	"Project-Id-Version: 0.3\n"
+	"Report-Msgid-Bugs-To: \n"
+	"POT-Creation-Date: 2010-12-14 13:48+1000\n"
+	"PO-Revision-Date: 2010-12-17 14:00+1000\n"
+	"Last-Translator: Raymond Zhao <whitecool@hotmail.com>\n"
+	"Language-Team: Chinese\n"
+	"MIME-Version: 1.0\n"
+	"Content-Type: text/plain; charset=utf-8\n"
+	"Content-Transfer-Encoding: 8bit\n"
+
+#: flamingtext.php:415
+msgid	"already exists."
+msgstr	"已经存在"
+
+#: flamingtext.php:434
+msgid	"Alien Glow"
+msgstr	"闪烁异形"
+
+#: flamingtext.php:434
+msgid	"Aurora Borealis"
+msgstr	"北极光"
+
+#: flamingtext.php:434
+msgid	"Blue-Flame"
+msgstr	"蓝色火焰"
+
+#: flamingtext.php:434
+msgid	"Burn-In"
+msgstr	"字体闪耀"
+
+#: flamingtext.php:561
+msgid	"Cancel"
+msgstr	"返回"
+
+#: flamingtext.php:434
+msgid	"Chrominium"
+msgstr	"鉻样式"
+
+#: flamingtext.php:1122
+msgid	"Click here to view the embedded slideshow."
+msgstr	"点击这里来显示幻灯片"
+
+#: flamingtext.php:550
+msgid	"Custom Logos..."
+msgstr	"自定义徽标。。。"
+
+#: flamingtext.php:724
+msgid	"Delete"
+msgstr	"删除"
+
+#: flamingtext.php:725
+msgid	"Deleting preset..."
+msgstr	"删除预设。。。"
+
+#: flamingtext.php:434
+msgid	"Doodle"
+msgstr	"涂鸦"
+
+#: flamingtext.php:434
+msgid	"Drop Shadow"
+msgstr	"阴影"
+
+#: flamingtext.php:431
+msgid	"Enter your text and press Okay button to insert an image:"
+msgstr	"输入你的文字然后点击确认按钮来输入一个图案"
+
+#: flamingtext.php:434
+msgid	"FlamingText"
+msgstr	"火焰文字"
+
+#: flamingtext.php:562
+msgid	"FlamingText Logo Creator"
+msgstr	"FlamingText徽标创造"
+
+#: flamingtext.php:437
+msgid	"Font"
+msgstr	"字体"
+
+#: flamingtext.php:434
+msgid	"Frosty"
+msgstr	"冰霜"
+
+#: flamingtext.php:408
+msgid	"Give a name to new FlamingText preset:"
+msgstr	"请为新预设起一个名字"
+
+#: flamingtext.php:434
+msgid	"Glow"
+msgstr	"闪耀"
+
+#: flamingtext.php:549
+msgid	"Insert / edit FlamingText logos"
+msgstr	"插入或编辑FlamingText徽标"
+
+#: flamingtext.php:434
+msgid	"Mosaic"
+msgstr	"马赛克"
+
+#: flamingtext.php:409
+msgid	"Name"
+msgstr	"名字"
+
+#: flamingtext.php:561 flamingtext.php:570
+msgid	"Okay"
+msgstr	"确认"
+
+#: flamingtext.php:416
+msgid	"Overwrite?"
+msgstr	"是否覆盖？"
+
+#: flamingtext.php:574
+msgid	"Pressing Okay will insert \\\"logo by FlamingText.com\\\" into your "
+	"post."
+msgstr	"点击确认后\\\"logo by FlamingText.com\\\"会自动添加到你的文章。"
+
+#: flamingtext.php:548
+msgid	"Presets"
+msgstr	"预设"
+
+#: flamingtext.php:750
+msgid	"Save"
+msgstr	"储存"
+
+#: flamingtext.php:738 flamingtext.php:751
+msgid	"Saving preset..."
+msgstr	"储存预设。。。"
+
+#: flamingtext.php:139
+msgid	"Settings"
+msgstr	"设置"
+
+#: flamingtext.php:435
+msgid	"Size"
+msgstr	"尺寸"
+
+#: flamingtext.php:433
+msgid	"Style"
+msgstr	"样式"
+
+#: flamingtext.php:432
+msgid	"Text"
+msgstr	"文字"
+
+#: flamingtext.php:415
+msgid	"Warning: a preset with name "
+msgstr	"警告：一个有同样名字的预设"
+
+#: flamingtext.php:434
+msgid	"Whirl"
+msgstr	"旋转"
+
+#: flamingtext.php:434
+msgid	"Wood"
+msgstr	"木"
+
+#: flamingtext.php:449
+msgid	"edit preset"
+msgstr	"编辑预设"
+
+#: flamingtext.php:846 flamingtext.php:894 flamingtext.php:948
+msgid	"bad response from server"
+msgstr	"从服务器返回错误的回应"
+
+#: flamingtext.php:707
+msgid	"error during deleting preset: bad response from database"
+msgstr	"在试图删除预设时发生错误：从数据库返回错误的回应"
+
+#: flamingtext.php:680
+msgid	"error during saving preset: bad response from database"
+msgstr	"在试图储存预设时发生错误：从数据库返回错误的回应"
+
+#: ft_db.php:30
+msgid	"errors occur during delete preset from wordpress database."
+msgstr	"试图从wordpress数据库中删除预设时发生错误。"
+
+#: ft_db.php:54
+msgid	"errors occur during save preset to wordpress database."
+msgstr	"试图存储预设到wordpress数据库时发生错误。"
+
+#: ft_db.php:11
+msgid	"invalid QUERY_STRING given, please DO NOT modify FlamingText plugin "
+	"without authorization!"
+msgstr	"请不要在没有取得授权的情况下私自修改FlamingText插件！"
+
+#: flamingtext.php:737
+msgid	"no"
+msgstr	"否"
+
+#: flamingtext.php:720
+msgid	"no preset for editing, refresh page to restore default"
+msgstr	"没有预设来删除，请刷新页面"
+
+#: ft_db.php:29
+msgid	"no preset to delete."
+msgstr	"没有预设删除。"
+
+#: flamingtext.php:422
+msgid	"please choose a preset to delete:"
+msgstr	"请选择一个预设来删除："
+
+#: ft_db.php:28
+msgid	"preset deleted successfully."
+msgstr	"成功删除预设。"
+
+#: ft_db.php:52
+msgid	"preset saved successfully."
+msgstr	"成功存储预设"
+
+#: ft_db.php:53
+msgid	"preset updated successfully."
+msgstr	"成功更新预设"
+
+#: flamingtext.php:449
+msgid	"save preset"
+msgstr	"保存预设"
+
+#: flamingtext.php:746
+msgid	"text string is too long for save"
+msgstr	"试图储存文字太长"
+
+#: flamingtext.php:737
+msgid	"yes"
+msgstr	"是"
+
+#: flamingtext.php:432 flamingtext.php 618
+msgid	"your text"
+msgstr	"你的文字"
