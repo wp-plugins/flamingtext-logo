@@ -18,7 +18,7 @@ to design their own logo based on what they type. When the users are happy
 with their creation, they can click OK and the image is inserted directly into
 your post.
 
-Usage maual: there is a quick usage manual avaialble at
+Usage manual: there is a quick usage manual available at
 (www.flamingtext.com/plugin/wordpress)
 
 Don't forget to try full FlamingText.com logo design features
