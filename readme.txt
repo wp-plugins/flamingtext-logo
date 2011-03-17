@@ -2,8 +2,8 @@
 Contributors: Raymond Zhao
 Tags: flamingtext, logos, photos
 Requires at least: 3.0
-Tested up to: 3.0.4
-Stable tag: 1.0.1
+Tested up to: 3.1
+Stable tag: 1.0.2
 
 Turn your text into flaming in wordpress!
 
@@ -45,3 +45,4 @@ Leave feedback or comments at our [plugin forum](http://community.flamingtext.co
 == Screenshots ==
 
 1. This is a screen shot of FlamingText plugin popup screen. sceenshot-1.jpg
+2. This is a screen shot of FlamingText plugin popup screen. sceenshot-2.jpg
