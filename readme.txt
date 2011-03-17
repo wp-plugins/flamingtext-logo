@@ -14,10 +14,12 @@ FlamingText to enhance your blog entries.
 
 his plug adds a button to editor. Once clicked, you can pick your style and
 adjust different parameters (eg. logo style, font, size, color) to create your
-own customizer logo or heading. Once done with your creation, click OK and the
+own customize logo or heading. Once done with your creation, click OK and the
 image is inserted directly into your post. 
 
-Usage maual: there is a quick usage manual avaialble at [plugin homepage](http://www.flamingtext.com/plugin/wordpress)
+Note: this plugin is available in Chinese now.
+
+Usage manual: there is a quick usage manual available at [plugin homepage](http://www.flamingtext.com/plugin/wordpress)
 
 Don't forget to try full FlamingText.com logo design features at
 [FlamingText.com](http://www.flamingtext.com)!
@@ -44,5 +46,21 @@ Leave feedback or comments at our [plugin forum](http://community.flamingtext.co
 
 == Screenshots ==
 
-1. This is a screen shot of FlamingText plugin popup screen. sceenshot-1.jpg
-2. This is a screen shot of FlamingText plugin popup screen. sceenshot-2.jpg
+1. Change select text to chrominium style logo.
+2. Change current Nove style select logo to Doodle style logo.
+3. Change select text to flamingtext preset logo.
+4. Popup flamingtext preset to view/modify details.
+5. Save current style to a new preset.
+
+== Changelog == 
+
+= Version 1.0.2 =
+* Plugin compatible with WordPress 3.1
+* Plugin available in Chinese
+* Include 3 new styles (Nova/Harry Potter/Glitter)
+
+= Version 1.0.1 =
+* Fix name space bug
+
+= Version 1.0 =
+* Initial release
