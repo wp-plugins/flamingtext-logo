@@ -2,7 +2,7 @@
 Contributors: Raymond Zhao
 Tags: flamingtext, logos, photos
 Requires at least: 3.0
-Tested up to: 3.2-beta2
+Tested up to: 3.2.0
 Stable tag: 1.0.3
 
 Turn your text into flaming in wordpress!
