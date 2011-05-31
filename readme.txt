@@ -3,7 +3,7 @@ Contributors: Raymond Zhao
 Tags: flamingtext, logos, photos
 Requires at least: 3.0
 Tested up to: 3.2-beta2
-Stable tag: 1.1.0
+Stable tag: 1.0.3
 
 Turn your text into flaming in wordpress!
 
@@ -54,7 +54,7 @@ Leave feedback or comments at FlamingText facebook page (http://www.facebook.com
 5. Save current style to a new preset.
 
 == Changelog == 
-= Version 1.1.0 =
+= Version 1.0.3 =
 * this plugin is now compatible with wordpress 3.2-beta2
 * dialog layout improvement
 * include a fontsize slider to easier change font size
