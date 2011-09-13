@@ -2,8 +2,8 @@
 Contributors: Raymond Zhao
 Tags: flamingtext, logos, photos
 Requires at least: 3.0
-Tested up to: 3.1
-Stable tag: 1.0.2
+Tested up to: 3.2.1
+Stable tag: 1.0.4
 
 Turn your text into flaming in wordpress!
 
@@ -17,7 +17,8 @@ adjust different parameters (eg. logo style, font, size, color) to create your
 own customize logo or heading. Once done with your creation, click OK and the
 image is inserted directly into your post. 
 
-Note: this plugin is available in Chinese now.
+Note: this plugin is available in Chinese now. (.pot file included for
+translation - submit yours to raymond@flamingtext.com)
 
 Usage manual: there is a quick usage manual available at [plugin homepage](http://www.flamingtext.com/plugin/wordpress)
 
@@ -42,7 +43,7 @@ wordpress plugin.
 Codex](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins) 
 
 == Other notes ==
-Leave feedback or comments at our [plugin forum](http://community.flamingtext.com/viewforum.php?f=9) or send email back to author directly for a quick response.
+Leave feedback or comments at FlamingText facebook page (http://www.facebook.com/FlamingTextCom) or send email back to author directly for a quick response.
 
 == Screenshots ==
 
@@ -53,6 +54,18 @@ Leave feedback or comments at our [plugin forum](http://community.flamingtext.co
 5. Save current style to a new preset.
 
 == Changelog == 
+= Version 1.0.4 =
+* this plugin is now compatible with wordpress 3.2.1
+* Include 2 new styles (Electric/USA)
+* Include new font (Bizarre), try it on with new styles!
+
+= Version 1.0.3 =
+* this plugin is now compatible with wordpress 3.2-beta2
+* dialog layout improvement
+* include a fontsize slider to easier change font size
+* changes default font size from 40 to 60, also makes text input bigger
+* add 3 new styles (Amazing3D/Emboss/Burnt)
+* update contact
 
 = Version 1.0.2 =
 * Plugin compatible with WordPress 3.1
