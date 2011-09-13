@@ -58,7 +58,6 @@ Leave feedback or comments at FlamingText facebook page (http://www.facebook.com
 * this plugin is now compatible with wordpress 3.2.1
 * Include 2 new styles (Electric/USA)
 * Include new font (Bizarre), try it on with new styles!
-
 = Version 1.0.3 =
 * this plugin is now compatible with wordpress 3.2-beta2
 * dialog layout improvement
@@ -66,14 +65,11 @@ Leave feedback or comments at FlamingText facebook page (http://www.facebook.com
 * changes default font size from 40 to 60, also makes text input bigger
 * add 3 new styles (Amazing3D/Emboss/Burnt)
 * update contact
-
 = Version 1.0.2 =
 * Plugin compatible with WordPress 3.1
 * Plugin available in Chinese
 * Include 3 new styles (Nova/Harry Potter/Glitter)
-
 = Version 1.0.1 =
 * Fix name space bug
-
 = Version 1.0 =
 * Initial release
